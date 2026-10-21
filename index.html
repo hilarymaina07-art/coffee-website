@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bean & Brew Cafe</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header id="header">
+        <h1>Bean & Brew Cafe</h1>
+        <nav>
+            <ul class="header-links">
+                <li><a href="#menu" class="nav-links">Menu</a></li>
+                <li><a href="#hours" class="nav-links">Hours & Prices</a></li>
+                <li><a href="#about" class="nav-links">About Us</a></li>
+                <li><a href="#location" class="nav-links">Find Us</a></li>
+            </ul>
+        </nav>
+        <a id="login-link" href="login.html" target="_blank">
+            <img src="images/login.png" class="login-logo">
+            <p>Login</p>
+        </a>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="hero-one">
+        <h2>Freshly Roasted Coffee Daily</h2>
+        <p>Experience the finest artisan coffee, crafted with passion, precision, and the world's best ethically sourced beans.</p>
+        <a href="#menu"><button class="nav-button">Explore Menu</button></a>
+    </section>
+
+    <hr>
+
+    <!-- CARDS SECTION -->
+    <section id="menu">
+        <h2>Our Signature Brews</h2>
+        
+        <!-- Card 1 -->
+        <div id="cards"><div class="card">
+            <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?auto=format&fit=crop&w=600&q=80" alt="Espresso" class="cup-image">
+            <h3>Classic Espresso</h3>
+            <p>Rich, bold shot of pure coffee essence with a velvety golden crema on top.</p>
+            <p><strong>$3.50</strong></p>
+            <button class="nav-button">Order Now</button>
+        </div>
+
+        <br>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1534778101976-62847782c213?auto=format&fit=crop&w=600&q=80" alt="Cappuccino" class="cup-image">
+            <h3>Creamy Cappuccino</h3>
+            <p>Equal parts espresso, steamed milk, and rich microfoam, dusted with cocoa.</p>
+            <p><strong>$4.50</strong></p>
+            <button class="nav-button">Order Now</button>
+        </div>
+
+        <br>
+
+        <!-- Card 3 -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1572442388796-11668a67e53d?auto=format&fit=crop&w=600&q=80" alt="Caramel Latte" class="cup-image">
+            <h3>Caramel Macchiato</h3>
+            <p>Steamed milk with vanilla syrup, marked with espresso and caramel drizzle.</p>
+            <p><strong>$5.25</strong></p>
+            <button class="nav-button">Order Now</button>
+        </div></div>
+    </section>
+
+    <hr>
+
+    <!-- TABLE SECTION -->
+    <section id="hours">
+        <h2>Hours & Pricing Guide</h2>
+        <table border="1" id="table">
+            <thead>
+                <tr id="th-row">
+                    <th>Day of the Week</th>
+                    <th>Opening Hours</th>
+                    <th>Special Offer</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>6:00 AM – 8:00 PM</td>
+                    <td>Happy Hour (2-4 PM): 20% Off Lattes</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>7:00 AM – 9:00 PM</td>
+                    <td>Free Pastry with any Cold Brew</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>8:00 AM – 6:00 PM</td>
+                    <td>Family Brunch Special</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- IFRAMES SECTION (YouTube & Maps) -->
+    <section id="location">
+        <h2>Watch & Visit</h2>
+        
+        <!-- YouTube Iframe -->
+        <div>
+            <h3>How We Brew</h3>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/v9Y3q-C1t_g" title="Coffee Brewing Tutorial" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen id="yvideo"></iframe>
+        </div>
+
+        <br>
+
+        <!-- Google Maps Iframe -->
+        <div>
+            <h3>Our Location</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373631531688!3d-37.81627974202166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad64p0a01d68f71%3A0xf57d4df15694c40!2sFederation%20Square!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" id="map"></iframe>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div>
+            <ul id="social-media">
+                <li><a href="#"><img src="images/facebook.png" alt="Facebook" class="social-icon"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="Twitter" class="social-icon"></i></a></li>
+                <li><a href="#"><img src="images/whatsapp.png" alt="WhatsApp" class="social-icon"></i></a></li>
+            </ul>
+        </div>
+        <p>&copy; 2026 Bean & Brew Cafe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

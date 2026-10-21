@@ -1,0 +1,113 @@
+*{
+    color: #CD853F;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #0D0D0D;
+    margin: 0;
+    /* padding: 20px; */
+}
+#header{
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    gap: 20%;
+    padding: 20px;
+}
+.header-links{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.nav-links{
+    text-decoration: none;
+}
+#login-link{
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.login-logo{
+    width: 30px;
+    height: 30px;
+}
+#hero-one{
+    padding: 20px;
+    text-align: center;
+}
+.nav-button{
+    border-color: #CD853F;
+    border-radius: 5px;
+}
+#menu{
+    padding: 20px;
+}
+#menu h2{
+    text-align: center;
+}
+#cards{
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+.card{
+    background-color: #252525;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.cup-image{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+#hours{
+    text-align: center;
+    /* align-content: center; */
+    /* align-items: center; */
+}
+#table{
+    /* border-radius: 5px; */
+    border-collapse: collapse;
+    padding: 5px;
+    width: 50%;
+    margin-inline: auto;
+}
+#th-row{
+    background-color: #252525;
+}
+th, td{
+    padding: 10px;
+}
+tr:nth-child(2n){
+    background-color: #252525;
+}
+#location{
+    text-align: center;
+    align-items: center;
+}
+#yvideo ,#map{
+    border-radius: 8px;
+}
+
+#footer{
+    background-color: #252525;
+    margin-top: 20px;
+    display: flex;
+    gap: 20%;
+}
+#social-media{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+.social-icon{
+    width: 20px;
+    height: 20px;
+}

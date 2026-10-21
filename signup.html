@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign up</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="firstname" class="form-label" class="label">First name</label>
+                <input type="text" name="firstname" placeholder="Enter your first name" class="input" required>
+            </div>
+            <div class="form-group">
+                <label for="lastname" class="form-label" class="label">Last name</label>
+                <input type="text" name="lastname" placeholder="Enter your last name" class="input" required>
+            </div>
+            <div class="form-group">
+                <label for="email" class="form-label" class="label">Email</label>
+                <input type="email" name="email" placeholder="Enter your email" class="input" required>
+            </div>
+            <div class="form-group">
+                <label for="password" class="form-label" class="label">Password</label>
+                <input type="password" name="password" placeholder="Enter your password" class="input" required>
+            </div>
+            <div class="form-group">
+                <label for="confirmpassword" class="form-label" class="label">Confirm password</label>
+                <input type="password" name="confirmpassword" placeholder="Confirm password" class="input" required>
+            </div>
+            <div id="terms">
+                <input type="checkbox" name="terms" required>
+                <label for="terms" class="label">I Agree to the <a href="#" target="_blank">Terms and Conditions</a>.</label>
+            </div>
+            <button type="submit" formaction="index.html">Sign up</button>
+            <p class="login-link">Already have an account? <a href="login.html">Login</a></p>
+        </form>
+    </div>
+</body>
+</html>
